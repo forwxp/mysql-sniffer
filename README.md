@@ -1,12 +1,13 @@
 Overview
 ========
 
-A small but useful tool to sniffer mysql query
-contact: qingqibai@gmail.com
+<p>A small but useful tool to sniffer mysql query</p>
+<p>contact: qingqibai@gmail.com</p>
 
 Usage summary
 =============
 
+<p>
 You need to install python-pypcap and python-dpkt to run this tool
 you may:
     apt-get install python-pypcap
@@ -14,7 +15,9 @@ you may:
 or:
     pip install python-pypcap
     pip install python-dpkt
+</p>
 
+<p>
 How to use mysql-sniffer to sniffer query::
     You can get help with ./mysql-sniffer -h or ./mysql-sniffer --help
     ./mysql -ieth1 -p3306 -r0.2
@@ -23,3 +26,4 @@ How to use mysql-sniffer to sniffer query::
     -f or --filter: filter, defalut None, would use "dst you host and tcp dst port you port 
     -r or --radio: filter radio, from 0 to 1, default 1 means sniffer all query
     -o or --output-file: output file, if set it will print the query to this file instead of stdout, defult None.
+</p>
