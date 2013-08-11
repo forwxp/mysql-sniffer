@@ -22,6 +22,7 @@ or:
 How to use mysql-sniffer to sniffer query::
     You can get help with ./mysql-sniffer -h or ./mysql-sniffer --help
     ./mysql -ieth1 -p3306 -r0.2
+    ./mysql-sniffer -ieth0 -f'host 192.168.20.54 and dst port 3306' -r0.1
     -i or --interface: the interface you want to siniffer
     -p or --port: the mysql port you use
     -f or --filter: filter, defalut None, would use "dst you host and tcp dst port you port 
